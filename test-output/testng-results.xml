@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+    <groups>
+      <group name="@regression">
+        <method signature="ParameterDemo.tc06()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc06" class="com.testng.ParameterDemo"/>
+      </group> <!-- @regression -->
+      <group name="@E2E">
+        <method signature="ParameterDemo.tc05()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc05" class="com.testng.ParameterDemo"/>
+      </group> <!-- @E2E -->
+      <group name="@sanity">
+        <method signature="ParameterDemo.tc02()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc02" class="com.testng.ParameterDemo"/>
+      </group> <!-- @sanity -->
+      <group name="@retest">
+        <method signature="ParameterDemo.tc03()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc03" class="com.testng.ParameterDemo"/>
+      </group> <!-- @retest -->
+    </groups>
+    <test name="Test" duration-ms="80" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+      <class name="com.testng.ParameterDemo">
+        <test-method status="PASS" signature="tc02()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc02" duration-ms="15" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02 -->
+        <test-method status="PASS" signature="tc03()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc03" duration-ms="0" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03 -->
+        <test-method status="PASS" signature="tc05()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc05" duration-ms="16" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05 -->
+        <test-method status="PASS" signature="tc06()[pri:0, instance:com.testng.ParameterDemo@204f30ec]" name="tc06" duration-ms="0" started-at="2022-04-24T10:19:30Z" finished-at="2022-04-24T10:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06 -->
+      </class> <!-- com.testng.ParameterDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
